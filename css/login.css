@@ -1,0 +1,45 @@
+body {
+  background: rgb(2, 0, 36);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(49, 49, 54, 1) 64%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(49, 49, 54, 1) 64%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(49, 49, 54, 1) 64%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#313136",GradientType=1);
+}
+
+.card-footer{
+  padding: 0;
+}
+
+.btn-success{
+  border-color: rgb(255, 110, 64); 
+  background-color : rgb(255, 110, 64); 
+  border: 0; 
+}
+
+.tab-text{
+  color: black !important;
+}
+
+.login-button{
+    border-radius: 0px;
+}
+
+.flex-container {
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
